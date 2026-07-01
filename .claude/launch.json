@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "bctrucks",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-I", "-c", "import http.server,socketserver,functools; H=functools.partial(http.server.SimpleHTTPRequestHandler, directory='/tmp/bctrucks-preview'); socketserver.TCPServer.allow_reuse_address=True; socketserver.TCPServer(('127.0.0.1',8090),H).serve_forever()"],
+      "port": 8090
+    }
+  ]
+}

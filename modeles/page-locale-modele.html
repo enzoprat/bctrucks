@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+  =====================================================================
+  GABARIT DE PAGE LOCALE SEO · BC Trucks
+  =====================================================================
+  But : dupliquer ce fichier pour créer une page ciblée sur une ville,
+  par exemple :
+    /reparation-poids-lourds-[ville]/index.html
+    /garage-poids-lourds-[ville]/index.html
+    /entretien-camion-[ville]/index.html
+
+  À FAIRE pour chaque page locale :
+   1. Copier ce dossier sous l'URL voulue (ex: /reparation-poids-lourds-lyon/).
+   2. Remplacer toutes les occurrences de [VILLE] par la ville réelle.
+   3. Adapter <title>, meta description, <h1>, canonical et le contenu
+      avec des informations RÉELLES et spécifiques (quartier, zone, etc.).
+   4. Ajouter l'URL dans /sitemap.xml et retirer le Disallow /modeles/
+      n'est PAS nécessaire : ce gabarit reste dans /modeles/ (non indexé).
+   5. NE PAS publier de page locale sans contenu réel et différencié
+      (Google pénalise le contenu dupliqué / vide).
+  =====================================================================
+-->
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Réparation poids lourds à [VILLE] · garage BC Trucks</title>
+  <meta name="description" content="Garage poids lourds à [VILLE] : réparation, entretien et diagnostic de camions et véhicules industriels par BC Trucks. Demandez votre devis." />
+  <link rel="canonical" href="https://www.bctrucks.fr/reparation-poids-lourds-[ville]/" />
+  <link rel="icon" type="image/svg+xml" href="/assets/img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Saira:wght@500;600;700;800;900&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <!-- Pensez à adapter le JSON-LD LocalBusiness avec l'adresse / la zone réelle -->
+</head>
+<body>
+  <!--
+    Reprendre ici le même <header>, <footer> et <div class="mobile-bar">
+    que les autres pages du site (copier depuis /services/index.html par ex.),
+    en mettant à jour l'état actif de la navigation si besoin.
+  -->
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero__bg"><img src="/assets/img/page-services.svg" alt="" width="1600" height="700" /></div>
+      <div class="page-hero__overlay"></div>
+      <div class="container page-hero__inner">
+        <nav class="breadcrumb"><a href="/">Accueil</a> / <span>Réparation poids lourds à [VILLE]</span></nav>
+        <h1>Réparation de poids lourds à [VILLE]</h1>
+        <p class="lead">BC Trucks intervient sur les poids lourds et véhicules industriels du secteur de [VILLE] : entretien, réparation, diagnostic et préparation au contrôle technique.</p>
+        <div class="btn-row" style="margin-top:26px">
+          <a href="tel:+33649073408" class="btn btn--primary">Demander un devis</a>
+          <a href="tel:+33649073408" class="btn btn--ghost">Appeler BC Trucks</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-light">
+      <div class="container container--narrow prose">
+        <h2>Un garage poids lourds proche de [VILLE]</h2>
+        <p>Décrivez ici, avec un contenu unique, la zone couverte autour de [VILLE], les types de véhicules pris en charge et les prestations disponibles. Évitez de copier-coller le texte des autres pages locales.</p>
+        <h2>Nos prestations à [VILLE]</h2>
+        <ul class="dotted">
+          <li>Réparation mécanique poids lourds et camions</li>
+          <li>Entretien courant, vidange et révision</li>
+          <li>Diagnostic de panne et recherche de défaut</li>
+          <li>Freinage, suspension et liaison au sol</li>
+          <li>Préparation au contrôle technique</li>
+        </ul>
+        <div class="btn-row" style="margin-top:24px">
+          <a href="tel:+33649073408" class="btn btn--primary">Prendre rendez-vous</a>
+          <a href="/services/" class="btn btn--outline-dark">Voir tous les services</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

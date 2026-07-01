@@ -1,0 +1,13 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BC Trucks">
+  <rect width="48" height="48" rx="9" fill="#0e0f13"/>
+  <rect x="1" y="1" width="46" height="46" rx="8" fill="none" stroke="#2c313a" stroke-width="1.5"/>
+  <g stroke="#c9342a" stroke-width="2.4" stroke-linecap="round">
+    <path d="M6 16h11"/>
+    <path d="M6 21h14"/>
+    <path d="M6 26h11"/>
+  </g>
+  <path d="M18 30V18h13l2 4 7 1v7h-3a3 3 0 0 1-6 0h-4a3 3 0 0 1-6 0z" fill="#c9342a"/>
+  <rect x="30.5" y="21.5" width="5.5" height="4" rx="0.6" fill="#0e0f13" opacity="0.55"/>
+  <circle cx="24" cy="33" r="3" fill="#0e0f13" stroke="#c9342a" stroke-width="1.8"/>
+  <circle cx="34" cy="33" r="3" fill="#0e0f13" stroke="#c9342a" stroke-width="1.8"/>
+</svg>

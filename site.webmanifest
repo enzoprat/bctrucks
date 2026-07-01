@@ -1,0 +1,12 @@
+{
+  "name": "BC Trucks — Réparation & entretien poids lourds",
+  "short_name": "BC Trucks",
+  "description": "Réparation, entretien et dépannage de poids lourds et véhicules industriels.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e0f13",
+  "theme_color": "#0e0f13",
+  "icons": [
+    { "src": "/assets/img/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

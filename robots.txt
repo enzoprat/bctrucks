@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /mentions-legales/
+Disallow: /politique-confidentialite/
+Disallow: /modeles/
+
+Sitemap: https://www.bctrucks.fr/sitemap.xml
